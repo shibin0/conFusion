@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,124 +10,199 @@
    
        <!-- Bootstrap CSS -->
        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-       <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+       <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">41
        <link rel="stylesheet" href="css/styles.css">
-        <title>Ristorante Con Fusion</title>
+        <title>Covid Heroes</title>
+        <style>
+            body, html {
+              height: 100%;
+            }
+            
+            .parallax {
+              /* The image used */
+              background-image: url('https://s3.amazonaws.com/carolinajournal.com/app/uploads/2020/03/13110917/coronavirus-Delaware-gov.jpg');
+            
+              /* Full height */
+              height: 100%; 
+            
+              /* Create the parallax scrolling effect */
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            </style>
 </head>
 
 
-<body>
+<body><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
 
     <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-           <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+            <a class="navbar-brand " href="#">Covid-19 Heroes</a>
            <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Home </a></li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#footer">Donate </a></li>
+                    
                 </ul>     
            </div>           
         </div>
     </nav>
-    <header class="jumbotron">
-        <div class="container">
-            <div class="row row-header">
-                <div class="col-12 col-sm-6">
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                </div>
-                <div class="col-12 col-sm">
-                </div>
-            </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/medic.png" alt="New York" width="1200" height="700">
+            <div class="carousel-caption font">
+              <h1><b>THANK YOU</b></h1>
+              <p>Doctors and Nurses</p>
+            </div>      
+          </div>
+    
+          <div class="item">
+            <img src="img/who.png" alt="Chicago" width="1200" height="700">
+            
+           
+            <div class="carousel-caption font">
+                <a role="button" class="btn btn-info" data-toggle="button" aria-pressed="false"" href="https://www.who.int/">WHO</a>
+                <p ><b>THANK YOU</b></p>
+              <p>WHO organiztion and Government</p>
+            </div>      
+          </div>
+        
+          <div class="item">
+            <img src="img/women.png" alt="Los Angeles" width="1200" height="700">
+            <div class="carousel-caption font ">
+                <h1><b>THANK YOU</b></h1>
+              <p>People who stay home and wear mask</p>
+            </div>  
+                
+          </div>
         </div>
-    </header>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+     
+      <div class="alert alert-info fade in alert-dismissible fixed-bottom" >
+        <a >Know more about </a><a href="https://www.mohfw.gov.in/pdf/FAQ.pdf" class="alert-link">COVID-19</a>.
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      </div>
+      <div class="parallax"></div>
     <div class ="container">
-        <div class="row row-content align-items-center">
+        <div class="row row-content align-items-center" style="background-image:linear-gradient(#ffffff,#f0ffff)">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Our Lipsmacking Culinary Creations</h3>
+                <h3 class="ml2">Health Workers</h3>
+
+                
             </div>
-            <div class="col col-sm order-sm-first col-md">
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+            <div class="col col-sm order-sm-first col-md" style="color: #ffffff;">
+                <h2>Health workers exposure risk assessment and management in the context of COVID-19 virus</h2>
+                <p>
+                    This tool is to be used by health care facilities that have either cared for or admitted COVID-19 patients; it is to be completed for all health workers who have been exposed to a confirmed COVID-19 patient in a health care facility. It will help determine the risk of COVID-19 virus infection of all HCWs who have been exposed to a COVID-19 patient and then provides recommendations for appropriate management of these HCWs, according to their infection risk.
+                    
+                    Find below the links to the template for collecting the data contained within the tool and a corresponding data dictionary to facilitate the collection of this data.</p>
             </div>
         </div>
 
-
-        <div class="row row-content align-items-center">
+<div class="media-body">
+        <div class="row row-content align-items-center" style="background-image:linear-gradient(#f0ffff,#cffafa)">
             <div class="col-12 col-sm-4 col-md-3">
-                <h3>This Month's Promotions</h3>
+                <h3 class="ml10">
+                    <span class="text-wrapper">
+                      <span class="letters">Completely Quarantine Your Family</span>
+                    </span>
+                  </h3> 
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
-                <h3>Meet our Culinary Specialists</h3>
-            </div>
-            <div class="col col-sm order-sm-first col-md">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                
+                <p>"The best way to prevent illness is to avoid being exposed to this virus," warns the CDC. Social distancing is obviously key, but the best way to ensure your family's health is by avoiding potentially infected people altogether. "We are asking people to please stay home and shelter in place except for vital functions such as getting food or medicine,"  says Dr. Lattanza. "If you must go out then follow social distancing guidelines and stay at least six feet away from others at all times. This is the best way to stop the spread of this virus and keep your family safe." </p>
             </div>
         </div>
     </div>
-
-    <footer  class="footer">
+        <div class="row row-content align-items-center" style="background-image:linear-gradient(#cffafa,#99f8f8)">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <h3>For Live Updates</h3>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <h2> <a href="https://www.mygov.in/covid-19/">India Fights Corona </a></h2>
+                <h4>Arogya Sethu </h4> <a class="btn btn-dark" href="https://mygov.in/aarogya-setu-app/">Download</a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="parallax"></div>
+    <footer  class="footer" >
+        <a name="footer">
         <div class="container">
-            <div class="row">             
-                <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <i class="fa fa-phone fa-lg"></i> Tel.: +852 1234 5678<br>
-		              <i class="fa fa-fax fa-lg"></i>Fax: +852 8765 4321<br>
-		              <i class="fa fa-envelope fa-lg"></i>Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
-                    </div>
-                </div>
+            <div class="row row-content">             
+                <div class="col-xs-12 col-md-7  header-text">
+
+                <h1 class="ml12">Stand with Kerala</h1><a style="color: white;">
+                
+                    Chief Ministers's Pandemic Relief Fund</a>
+                    <div class="row" style="font-size: 20px; color: #fdab13;">
+                       
+                        </div>
+                                            <p  class="text-white ju"stify >Kerala is in a battle against COVID19. The people of the State have shown great courage and tenacity in this fight against the pandemic. The outbreak and the consequent disruption have affected the lives of many.  You can help rebuild the affected lives by making contributions to the Chief Minister's Distress Relief Fund (CMDRF).
+                        </p>
+                                            <a href="https://donation.cmdrf.kerala.gov.in/#donation" class="btn btn-default" style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ">Donate as Individual</a> <a href="https://donation.cmdrf.kerala.gov.in/index.php/AssocRegistration/assocLogin" class="btn btn-info" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Donate as Group</a>
+                                            <br>
+                        <br>
+                        <br>
+                                            
+                                            </div>
+            
+                                        
+             
+            </div>
+        </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
            </div>
            <div class="row justify-content-center">             
-                <div class="col-auto" >
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                <div class="col-auto" style="color: bisque;" >
+                    <p>© Copyright 2020 Designed by Shibin</p>
                 </div>
            </div>
-        </div>
+        </div></a>
     </footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/wrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
 </body>
 
 </html>

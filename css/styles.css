@@ -11,16 +11,17 @@
 }
 
 .footer {
-    background-color: #facac9;
+    background-color: #00305A;
     margin: 0px auto;
     padding: 20px 0px;
 }
 
 .jumbotron {
-    padding: 70px 30px;
+    padding: 100px 30px;
     margin: 0px auto;
-    background: #feb2b0;
+    background-image: linear-gradient(#4facfe,#00f2fe);
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .address {
@@ -36,5 +37,90 @@ body {
 }
 
 .navbar-dark {
-    background-color: #ff9b99;
+    background-color: #00305A;
 }
+.thank {
+    color: #00305A;
+}
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  #Thank_you__Doctors_and_Nurses {
+  
+    white-space: nowrap;
+    
+    text-align: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.navbar {
+    overflow: hidden;
+    background-color: #00305A;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+  }
+  .font {
+      font-family: acumin pro;
+      font-weight: 500;
+      font-size: 60px;
+  }
+  
+  .ml12 {
+    font-weight: 200;
+    font-size: 1.8em;
+    color: #fff;
+    
+    
+  }
+  
+  .ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  .ml10 {
+    position: relative;
+    font-weight: 700;
+    font-size: 23px;
+    
+  }
+  
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
+  .ml2 {
+    font-weight: 700;
+    font-size: 23px;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
